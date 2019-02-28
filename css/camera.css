@@ -1,0 +1,258 @@
+/*========================================================
+                        Camera
+=========================================================*/
+.camera_container {
+  position: relative;
+  padding-bottom: 41.12195%;
+}
+
+@media (max-width: 972.71649px) {
+  .camera_container {
+    padding-bottom: 400px;
+  }
+}
+.camera_wrap {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin-bottom: 0 !important;
+  height: 100%;
+  background: #fff;
+  z-index: 0;
+}
+
+.camera_wrap img {
+  max-width: none !important;
+}
+
+.camera_fakehover {
+  height: 100%;
+  min-height: 60px;
+  position: relative;
+  width: 100%;
+}
+
+.camera_src {
+  display: none;
+}
+
+.cameraCont, .cameraContents {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.cameraSlide {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.cameraContent {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+}
+
+.camera_target {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  text-align: left;
+  z-index: 0;
+}
+
+.camera_overlayer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.camera_target_content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.camera_loader {
+  background: #fff url(../images/camera-loader.gif) no-repeat center;
+  border: 1px solid #ffffff;
+  border-radius: 18px;
+  height: 36px;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  margin: -18px 0 0 -18px;
+  top: 50%;
+  width: 36px;
+  z-index: 3;
+}
+
+.camera_nav_cont {
+  height: 65px;
+  overflow: hidden;
+  position: absolute;
+  right: 9px;
+  top: 15px;
+  width: 120px;
+  z-index: 4;
+}
+
+.camerarelative {
+  overflow: hidden;
+  position: relative;
+}
+
+.imgFake {
+  cursor: pointer;
+}
+
+.camera_command_wrap .hideNav {
+  display: none;
+}
+
+.camera_command_wrap {
+  left: 0;
+  position: relative;
+  right: 0;
+  z-index: 4;
+}
+
+.showIt {
+  display: none;
+}
+
+.camera_clear {
+  clear: both;
+  display: block;
+  height: 1px;
+  margin: -1px 0 25px;
+  position: relative;
+}
+
+.camera_caption {
+  display: none;
+}
+
+.cameraContent .camera_caption {
+  display: block;
+}
+
+/*================   Custom Layout&Styles   =====================*/
+.camera_caption {
+  display: none;
+  left: 20%;
+  right: 20%;
+  top: 40%;
+  position: absolute;
+  word-spacing: 5px ;
+   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.78); 
+   /*=text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  ==== text-shadow: 2px 2px #000000;========*/
+}
+
+
+
+.camera_caption {
+  color: #fff;
+}
+@media (max-width: 1850px) {
+  .camera_caption {
+    top: 35%;
+    bottom: 27%;
+  }
+  .camera_caption .big {
+    font-size: 39px;
+  }
+  .camera_caption br {
+    display: none;
+  }
+}
+@media (max-width: 1199px) {
+  .camera_caption {
+    top: 40%;
+    bottom: 0;
+  }
+  .camera_caption .big {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .camera_caption {
+    top: 20%;
+    bottom: 10%;
+  }
+}
+@media (max-width: 479px) {
+  .camera_caption {
+    left: 15px;
+    right: 15px;
+  }
+}
+.camera_caption > div {
+  height: 100%;
+}
+
+.camera_pag {
+  position: absolute;
+  z-index: 9999;
+  left: 50%;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 15%;
+}
+@media (max-width: 991px) {
+  .camera_pag {
+    bottom: 5%;
+  }
+}
+.camera_pag_ul {
+  text-align: center;
+}
+.camera_pag_ul li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #fff;
+  -moz-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.camera_pag_ul li.cameracurrent, .camera_pag_ul li:hover {
+  background: #009CDB;
+}
+.camera_pag_ul li + li {
+  margin-left: 9px;
+}
+.camera_pag_ul li > span {
+  display: none;
+}

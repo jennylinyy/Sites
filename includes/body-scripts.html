@@ -1,0 +1,14 @@
+<script>
+  window.addEventListener('load', function() {
+    if(window.location.pathname.match('/contacts.html')){
+    jQuery('button:contains(Send)').click(function(){
+     var timeInt = setInterval(function() {
+          if (jQuery('.msg:contains(Sent)').is(':visible')) {
+              gtag('event', 'conversion', {'send_to': 'AW-842920944/9n8DCJ_W9noQ8Of3kQM'});
+            clearInterval(timeInt);
+          }
+        }, 1000);
+    })   
+    }
+  })
+</script>

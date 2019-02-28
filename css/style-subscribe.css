@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+html, body {overflow-x: hidden;}
+html, body, div {
+	font-family: Open Sans;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	text-align: center;
+}
+
+button {
+	cursor: pointer;
+	outline: none;
+}
+
+label {
+	cursor: inherit;
+}
+
+b, strong {
+	font-weight: 700;
+}
+
+a, a:focus, a:hover, a:visited {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.content {
+	text-align: center;
+}
+
+.wrapper {
+	width: 1024px;
+	display: inline-block;
+	height: 1030px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.tel {
+	font-size: 20px;
+	float: right;
+	margin-right: 10px;
+	line-height: 55px;
+}
+
+.tagline {
+	font-style: italic;
+	font-size: 28px;
+	font-family: vollkorn;
+	font-weight: 400;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.plans {
+	text-align: left;
+}
+
+.plans .header {
+    font-family: vollkorn;
+    font-size: 30px;
+    color: green;
+    font-weight: 550;
+    padding-left: 10px;
+}
+
+.leftcol {
+	float: left;
+	text-align: left;
+	word-wrap: normal;
+	position: absolute;
+    padding-top: 10px;
+}
+
+.leftcol .col {
+	float: left;
+	text-align: center;
+    font-size: 30px;
+    padding: 35px 35px 35px 10px;
+	font-family: Arial;
+	line-height: 35px;
+}
+
+.leftcol .price {
+	color: red;
+}
+
+.leftcol ul {
+	clear: both;
+	list-style: none;
+}
+
+.leftcol li {
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+.leftcol li:before {
+	content: "✓";
+	padding-right: 10px;
+}
+
+.leftcol .features {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 10px;
+}
+
+.hotline {
+	margin-top: 20px;
+	font-size: 21px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+.hotline label {
+	font-weight: bolder;
+}
+
+.hotline .img {
+	display: inline-block;
+	height: 25px;
+	vertical-align: middle;
+}
+
+.hotline .lbl {
+	vertical-align: middle;
+	height: 25px;
+}
+
+.lbl:hover {
+	border-bottom: 1px solid #000;
+}
+
+.sep {
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin: 1.9em 0 1.7em;
+    position: relative;
+}
+
+.sep span {
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+    left: 44%;
+    width: 12%;
+    text-align: center;
+    background: #FFFFFF;
+    color: #666666;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.rightcol {
+	float: right;
+}
+
+.rightcol img {
+	width: 430px;
+}
+
+.blueribbon {
+    background-color: #1d3558;
+    color: #fff;
+    padding: 25px;
+}
+
+.blueribbon .hgltext {
+	font-family: vollkorn;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+}
+
+.blueribbon .smltext {
+	font-size: 21px;
+	font-weight: 400;
+	padding-top: 20px;
+}
+
+.stay-informed {
+	background-image: url("../images/tom.png");
+	background-repeat: no-repeat;
+	background-position: -136px -320px;
+	padding-left: 628px;
+    padding-top: 70px;
+    text-align: left;
+    background-size: 1320px;
+    height: 600px;
+}
+
+.heading {
+	font-family: vollkorn;
+	font-size: 30px;
+	width: 400px;
+    line-height: 40px;
+}
+
+.stay-informed .desc {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.stay-informed .sub-heading {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.points {
+	margin-left: 25px;
+}
+
+.point {
+	padding-top: 25px;
+}
+
+.point .img {
+	display: inline-block;
+}
+
+.point .txt {
+	display: inline-block;
+	vertical-align: top;
+	width: 390px;
+	padding-left: 15px;
+}
+
+.txt .text {
+	padding-top: 5px;
+	line-height: 25px;
+}
+
+.testimonies .heading {
+	width: 550px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+.testimonies .col {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.testimonies .col .img {
+	max-width: 95px;
+	vertical-align: top;
+}
+
+.testimonies .col span {
+	display: inline-block;
+	text-align: left;
+	font-size: 14px;
+	width: 60%;
+	line-height: 20px;
+}
+
+.testimonies .col span p {
+	height: 100px;
+}
+
+.testimonies .col span b {
+	padding-top: 10px;
+}
+
+.yt {
+    padding-top: 70px;
+    text-align: left;
+    height: 600px;
+}
+
+.handler {
+	width: 650px;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: inline-block;
+    position: absolute;
+    z-index: 45;
+}
+
+.yt .rightcol {
+	position: absolute;
+	margin-left: 625px;
+	height: 511px;
+    width: 730px;
+    z-index: 46;
+}
+
+.yt .robin {
+	margin-top: -173px;
+	background-image: url("../images/robin.png");
+    height: 746px;
+    background-position: 47px 108px;
+    background-repeat: no-repeat;
+}
+
+.resp-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    max-width: 850px;
+    overflow: hidden;
+    height: 0;
+    margin: 0 auto;
+}
+
+.resp-container .resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sum {
+	margin-bottom: 20px;
+}
+
+.footer {
+	margin-top: 30px;
+	background-color: #fbfbfb;
+	padding:15px;
+}
+
+.footer a {
+	color: rgb(86, 131, 215);
+}
+
+.contact-form .mfControls {
+	margin-top: 20px;
+}
+
+.contact-form input {
+	border: none;
+}
+
+.contact-form label textarea {
+	height: 200px !important;
+}
+
+.shortf {
+	display: inline-block;
+	width: 32%;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 700;
+    border: 2px solid transparent;
+    background: transparent;
+    padding: 17px 52px;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+	background: #009CDB;
+  }
+
+.btn:active {
+-webkit-box-shadow: 0 0 10px #000;
+-moz-box-shadow: 0 0 10px #000;
+box-shadow: 0 0 10px #000;
+}
+
+.btn-primary {
+border: 2px solid #009CDB;
+background: #009CDB;
+color: #fff;
+}
+
+.btn-primary:hover {
+background: rgba(0, 156, 219, 0);
+color: #009CDB;
+}
+
+.btn-default {
+    border: 2px solid #009CDB;
+    color: #009CDB;
+}
+
+.btn-default:hover {
+	background: #009CDB;
+	color: #fff;
+  }
+
+.btn-sm {
+    padding: 16px 38px;
+}

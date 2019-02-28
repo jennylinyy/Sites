@@ -1,0 +1,17 @@
+.about h4, h6 {
+  margin-top: 10px;
+}
+
+.about h6 {
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.about p {
+  font-size: 16px;
+}
+
+.about .row {
+  width: 90;
+  margin-left: 30px;
+}
