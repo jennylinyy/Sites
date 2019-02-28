@@ -1,6 +1,6 @@
 <?php
 	
-$recipients = 'linda.ho@epochtimes.com.au';
+$recipients = 'lind.ho@epochtimes.com.au';
 //$recipients = 'axlemaniac@gmail.com';
 //$recipients = '#';
 
